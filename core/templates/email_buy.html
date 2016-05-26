@@ -1,0 +1,24 @@
+{% extends "email.html" %}
+
+{% block title %}semurg: new buy opportunities{% endblock %}
+{% block heading %}New buy opportunities identified{% endblock %}
+{% block info %}I have identified that certain instruments should be bought today. For detail please refer to the table below.{% endblock %}
+
+{% block opportunities %}<table id="opportunities">
+      <thead><tr>
+        <th>Symbol</th>
+        <th>Date</th>
+        <th>Breakout date</th>
+      </tr></thead>
+      <tbody>
+{% for opportunity in opportunities %}
+        <tr>
+          <td><a href="http://finance.yahoo.com/q?s={{opportunity.symbol}}">{{opportunity.symbol}}</a></td>
+          <td>{{opportunity.date|date:"Y-m-d"}}</td>
+          <td>{{opportunity.breakout_date|date:"Y-m-d"}}</td>
+        </tr>
+{% endfor %}
+      </tbody>
+    </table>{% endblock %}
+
+{% block footer %}For more information please access semurg at your earliest convenience.{% endblock %}

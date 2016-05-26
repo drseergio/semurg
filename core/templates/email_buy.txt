@@ -1,0 +1,10 @@
+semurg: new buy opportunities
+
+I have identified that certain instruments should be bought today. For detail please refer to the table below.
+
+Symbol      Date        Breakout date
+{% for opportunity in opportunities %}
+{{opportunity.symbol}}      {{opportunity.date|date:"Y-m-d"}}       {{opportunity.breakout_date|date:"Y-m-d"}}
+{% endfor %}
+
+For more information please access semurg at your earliest convenience.

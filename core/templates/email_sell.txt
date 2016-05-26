@@ -1,0 +1,10 @@
+semurg: new sell opportunities
+
+I have identified that certain instruments should be sold today. For detail please refer to the table below.
+
+Symbol      Price       Type
+{% for opportunity in opportunities %}
+{{opportunity.symbol}}">{{opportunity.symbol}}      {{opportunity.instrument.last_price}}       {{opportunity.type}}
+{% endfor %}
+
+For more information please access semurg at your earliest convenience.

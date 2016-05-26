@@ -1,0 +1,1169 @@
+- model: core.Currency
+  pk: 2
+  fields:
+    symbol: 'AFN'
+    name: 'Afghani'
+    code: '971'
+    unit: '2'
+- model: core.Currency
+  pk: 3
+  fields:
+    symbol: 'EUR'
+    name: 'Euro'
+    code: '978'
+    unit: '2'
+- model: core.Currency
+  pk: 4
+  fields:
+    symbol: 'ALL'
+    name: 'Lek'
+    code: '008'
+    unit: '2'
+- model: core.Currency
+  pk: 5
+  fields:
+    symbol: 'DZD'
+    name: 'Algerian Dinar'
+    code: '012'
+    unit: '2'
+- model: core.Currency
+  pk: 6
+  fields:
+    symbol: 'USD'
+    name: 'US Dollar'
+    code: '840'
+    unit: '2'
+- model: core.Currency
+  pk: 8
+  fields:
+    symbol: 'AOA'
+    name: 'Kwanza'
+    code: '973'
+    unit: '2'
+- model: core.Currency
+  pk: 9
+  fields:
+    symbol: 'XCD'
+    name: 'East Caribbean Dollar'
+    code: '951'
+    unit: '2'
+- model: core.Currency
+  pk: 12
+  fields:
+    symbol: 'ARS'
+    name: 'Argentine Peso'
+    code: '032'
+    unit: '2'
+- model: core.Currency
+  pk: 13
+  fields:
+    symbol: 'AMD'
+    name: 'Armenian Dram'
+    code: '051'
+    unit: '2'
+- model: core.Currency
+  pk: 14
+  fields:
+    symbol: 'AWG'
+    name: 'Aruban Guilder'
+    code: '533'
+    unit: '2'
+- model: core.Currency
+  pk: 15
+  fields:
+    symbol: 'AUD'
+    name: 'Australian Dollar'
+    code: '036'
+    unit: '2'
+- model: core.Currency
+  pk: 17
+  fields:
+    symbol: 'AZN'
+    name: 'Azerbaijanian Manat'
+    code: '944'
+    unit: '2'
+- model: core.Currency
+  pk: 18
+  fields:
+    symbol: 'BSD'
+    name: 'Bahamian Dollar'
+    code: '044'
+    unit: '2'
+- model: core.Currency
+  pk: 19
+  fields:
+    symbol: 'BHD'
+    name: 'Bahraini Dinar'
+    code: '048'
+    unit: '3'
+- model: core.Currency
+  pk: 20
+  fields:
+    symbol: 'BDT'
+    name: 'Taka'
+    code: '050'
+    unit: '2'
+- model: core.Currency
+  pk: 21
+  fields:
+    symbol: 'BBD'
+    name: 'Barbados Dollar'
+    code: '052'
+    unit: '2'
+- model: core.Currency
+  pk: 22
+  fields:
+    symbol: 'BYR'
+    name: 'Belarussian Ruble'
+    code: '974'
+    unit: '0'
+- model: core.Currency
+  pk: 24
+  fields:
+    symbol: 'BZD'
+    name: 'Belize Dollar'
+    code: '084'
+    unit: '2'
+- model: core.Currency
+  pk: 25
+  fields:
+    symbol: 'XOF'
+    name: 'CFA Franc'
+    code: '952'
+    unit: '0'
+- model: core.Currency
+  pk: 26
+  fields:
+    symbol: 'BMD'
+    name: 'Bermudian Dollar'
+    code: '060'
+    unit: '2'
+- model: core.Currency
+  pk: 27
+  fields:
+    symbol: 'INR'
+    name: 'Indian Rupee'
+    code: '356'
+    unit: '2'
+- model: core.Currency
+  pk: 28
+  fields:
+    symbol: 'BTN'
+    name: 'Ngultrum'
+    code: '064'
+    unit: '2'
+- model: core.Currency
+  pk: 29
+  fields:
+    symbol: 'BOB'
+    name: 'Boliviano'
+    code: '068'
+    unit: '2'
+- model: core.Currency
+  pk: 30
+  fields:
+    symbol: 'BOV'
+    name: 'Mvdol'
+    code: '984'
+    unit: '2'
+- model: core.Currency
+  pk: 32
+  fields:
+    symbol: 'BAM'
+    name: 'Convertible Mark'
+    code: '977'
+    unit: '2'
+- model: core.Currency
+  pk: 33
+  fields:
+    symbol: 'BWP'
+    name: 'Pula'
+    code: '072'
+    unit: '2'
+- model: core.Currency
+  pk: 34
+  fields:
+    symbol: 'NOK'
+    name: 'Norwegian Krone'
+    code: '578'
+    unit: '2'
+- model: core.Currency
+  pk: 35
+  fields:
+    symbol: 'BRL'
+    name: 'Brazilian Real'
+    code: '986'
+    unit: '2'
+- model: core.Currency
+  pk: 37
+  fields:
+    symbol: 'BND'
+    name: 'Brunei Dollar'
+    code: '096'
+    unit: '2'
+- model: core.Currency
+  pk: 38
+  fields:
+    symbol: 'BGN'
+    name: 'Bulgarian Lev'
+    code: '975'
+    unit: '2'
+- model: core.Currency
+  pk: 40
+  fields:
+    symbol: 'BIF'
+    name: 'Burundi Franc'
+    code: '108'
+    unit: '0'
+- model: core.Currency
+  pk: 41
+  fields:
+    symbol: 'KHR'
+    name: 'Riel'
+    code: '116'
+    unit: '2'
+- model: core.Currency
+  pk: 42
+  fields:
+    symbol: 'XAF'
+    name: 'CFA Franc'
+    code: '950'
+    unit: '0'
+- model: core.Currency
+  pk: 43
+  fields:
+    symbol: 'CAD'
+    name: 'Canadian Dollar'
+    code: '124'
+    unit: '2'
+- model: core.Currency
+  pk: 44
+  fields:
+    symbol: 'CVE'
+    name: 'Cape Verde Escudo'
+    code: '132'
+    unit: '2'
+- model: core.Currency
+  pk: 45
+  fields:
+    symbol: 'KYD'
+    name: 'Cayman Islands Dollar'
+    code: '136'
+    unit: '2'
+- model: core.Currency
+  pk: 48
+  fields:
+    symbol: 'CLP'
+    name: 'Chilean Peso'
+    code: '152'
+    unit: '0'
+- model: core.Currency
+  pk: 49
+  fields:
+    symbol: 'CLF'
+    name: 'Unidades de fomento'
+    code: '990'
+    unit: '0'
+- model: core.Currency
+  pk: 50
+  fields:
+    symbol: 'CNY'
+    name: 'Yuan Renminbi'
+    code: '156'
+    unit: '2'
+- model: core.Currency
+  pk: 53
+  fields:
+    symbol: 'COP'
+    name: 'Colombian Peso'
+    code: '170'
+    unit: '2'
+- model: core.Currency
+  pk: 54
+  fields:
+    symbol: 'COU'
+    name: 'Unidad de Valor Real'
+    code: '970'
+    unit: '2'
+- model: core.Currency
+  pk: 55
+  fields:
+    symbol: 'KMF'
+    name: 'Comoro Franc'
+    code: '174'
+    unit: '0'
+- model: core.Currency
+  pk: 57
+  fields:
+    symbol: 'CDF'
+    name: 'Congolese Franc'
+    code: '976'
+    unit: '2'
+- model: core.Currency
+  pk: 58
+  fields:
+    symbol: 'NZD'
+    name: 'New Zealand Dollar'
+    code: '554'
+    unit: '2'
+- model: core.Currency
+  pk: 59
+  fields:
+    symbol: 'CRC'
+    name: 'Costa Rican Colon'
+    code: '188'
+    unit: '2'
+- model: core.Currency
+  pk: 61
+  fields:
+    symbol: 'HRK'
+    name: 'Croatian Kuna'
+    code: '191'
+    unit: '2'
+- model: core.Currency
+  pk: 62
+  fields:
+    symbol: 'CUP'
+    name: 'Cuban Peso'
+    code: '192'
+    unit: '2'
+- model: core.Currency
+  pk: 63
+  fields:
+    symbol: 'CUC'
+    name: 'Peso Convertible'
+    code: '931'
+    unit: '2'
+- model: core.Currency
+  pk: 64
+  fields:
+    symbol: 'ANG'
+    name: 'Netherlands Antillean Guilder'
+    code: '532'
+    unit: '2'
+- model: core.Currency
+  pk: 66
+  fields:
+    symbol: 'CZK'
+    name: 'Czech Koruna'
+    code: '203'
+    unit: '2'
+- model: core.Currency
+  pk: 67
+  fields:
+    symbol: 'DKK'
+    name: 'Danish Krone'
+    code: '208'
+    unit: '2'
+- model: core.Currency
+  pk: 68
+  fields:
+    symbol: 'DJF'
+    name: 'Djibouti Franc'
+    code: '262'
+    unit: '0'
+- model: core.Currency
+  pk: 70
+  fields:
+    symbol: 'DOP'
+    name: 'Dominican Peso'
+    code: '214'
+    unit: '2'
+- model: core.Currency
+  pk: 72
+  fields:
+    symbol: 'EGP'
+    name: 'Egyptian Pound'
+    code: '818'
+    unit: '2'
+- model: core.Currency
+  pk: 73
+  fields:
+    symbol: 'SVC'
+    name: 'El Salvador Colon'
+    code: '222'
+    unit: '2'
+- model: core.Currency
+  pk: 76
+  fields:
+    symbol: 'ERN'
+    name: 'Nakfa'
+    code: '232'
+    unit: '2'
+- model: core.Currency
+  pk: 78
+  fields:
+    symbol: 'ETB'
+    name: 'Ethiopian Birr'
+    code: '230'
+    unit: '2'
+- model: core.Currency
+  pk: 80
+  fields:
+    symbol: 'FKP'
+    name: 'Falkland Islands Pound'
+    code: '238'
+    unit: '2'
+- model: core.Currency
+  pk: 82
+  fields:
+    symbol: 'FJD'
+    name: 'Fiji Dollar'
+    code: '242'
+    unit: '2'
+- model: core.Currency
+  pk: 86
+  fields:
+    symbol: 'XPF'
+    name: 'CFP Franc'
+    code: '953'
+    unit: '0'
+- model: core.Currency
+  pk: 89
+  fields:
+    symbol: 'GMD'
+    name: 'Dalasi'
+    code: '270'
+    unit: '2'
+- model: core.Currency
+  pk: 90
+  fields:
+    symbol: 'GEL'
+    name: 'Lari'
+    code: '981'
+    unit: '2'
+- model: core.Currency
+  pk: 92
+  fields:
+    symbol: 'GHS'
+    name: 'Cedi'
+    code: '936'
+    unit: '2'
+- model: core.Currency
+  pk: 93
+  fields:
+    symbol: 'GIP'
+    name: 'Gibraltar Pound'
+    code: '292'
+    unit: '2'
+- model: core.Currency
+  pk: 99
+  fields:
+    symbol: 'GTQ'
+    name: 'Quetzal'
+    code: '320'
+    unit: '2'
+- model: core.Currency
+  pk: 100
+  fields:
+    symbol: 'GBP'
+    name: 'Pound Sterling'
+    code: '826'
+    unit: '2'
+- model: core.Currency
+  pk: 101
+  fields:
+    symbol: 'GNF'
+    name: 'Guinea Franc'
+    code: '324'
+    unit: '0'
+- model: core.Currency
+  pk: 103
+  fields:
+    symbol: 'GYD'
+    name: 'Guyana Dollar'
+    code: '328'
+    unit: '2'
+- model: core.Currency
+  pk: 104
+  fields:
+    symbol: 'HTG'
+    name: 'Gourde'
+    code: '332'
+    unit: '2'
+- model: core.Currency
+  pk: 108
+  fields:
+    symbol: 'HNL'
+    name: 'Lempira'
+    code: '340'
+    unit: '2'
+- model: core.Currency
+  pk: 109
+  fields:
+    symbol: 'HKD'
+    name: 'Hong Kong Dollar'
+    code: '344'
+    unit: '2'
+- model: core.Currency
+  pk: 110
+  fields:
+    symbol: 'HUF'
+    name: 'Forint'
+    code: '348'
+    unit: '2'
+- model: core.Currency
+  pk: 111
+  fields:
+    symbol: 'ISK'
+    name: 'Iceland Krona'
+    code: '352'
+    unit: '0'
+- model: core.Currency
+  pk: 113
+  fields:
+    symbol: 'IDR'
+    name: 'Rupiah'
+    code: '360'
+    unit: '2'
+- model: core.Currency
+  pk: 115
+  fields:
+    symbol: 'IRR'
+    name: 'Iranian Rial'
+    code: '364'
+    unit: '2'
+- model: core.Currency
+  pk: 116
+  fields:
+    symbol: 'IQD'
+    name: 'Iraqi Dinar'
+    code: '368'
+    unit: '3'
+- model: core.Currency
+  pk: 119
+  fields:
+    symbol: 'ILS'
+    name: 'New Israeli Sheqel'
+    code: '376'
+    unit: '2'
+- model: core.Currency
+  pk: 121
+  fields:
+    symbol: 'JMD'
+    name: 'Jamaican Dollar'
+    code: '388'
+    unit: '2'
+- model: core.Currency
+  pk: 122
+  fields:
+    symbol: 'JPY'
+    name: 'Yen'
+    code: '392'
+    unit: '0'
+- model: core.Currency
+  pk: 124
+  fields:
+    symbol: 'JOD'
+    name: 'Jordanian Dinar'
+    code: '400'
+    unit: '3'
+- model: core.Currency
+  pk: 125
+  fields:
+    symbol: 'KZT'
+    name: 'Tenge'
+    code: '398'
+    unit: '2'
+- model: core.Currency
+  pk: 126
+  fields:
+    symbol: 'KES'
+    name: 'Kenyan Shilling'
+    code: '404'
+    unit: '2'
+- model: core.Currency
+  pk: 128
+  fields:
+    symbol: 'KPW'
+    name: 'North Korean Won'
+    code: '408'
+    unit: '2'
+- model: core.Currency
+  pk: 129
+  fields:
+    symbol: 'KRW'
+    name: 'Won'
+    code: '410'
+    unit: '0'
+- model: core.Currency
+  pk: 130
+  fields:
+    symbol: 'KWD'
+    name: 'Kuwaiti Dinar'
+    code: '414'
+    unit: '3'
+- model: core.Currency
+  pk: 131
+  fields:
+    symbol: 'KGS'
+    name: 'Som'
+    code: '417'
+    unit: '2'
+- model: core.Currency
+  pk: 132
+  fields:
+    symbol: 'LAK'
+    name: 'Kip'
+    code: '418'
+    unit: '2'
+- model: core.Currency
+  pk: 133
+  fields:
+    symbol: 'LVL'
+    name: 'Latvian Lats'
+    code: '428'
+    unit: '2'
+- model: core.Currency
+  pk: 134
+  fields:
+    symbol: 'LBP'
+    name: 'Lebanese Pound'
+    code: '422'
+    unit: '2'
+- model: core.Currency
+  pk: 135
+  fields:
+    symbol: 'LSL'
+    name: 'Loti'
+    code: '426'
+    unit: '2'
+- model: core.Currency
+  pk: 136
+  fields:
+    symbol: 'ZAR'
+    name: 'Rand'
+    code: '710'
+    unit: '2'
+- model: core.Currency
+  pk: 137
+  fields:
+    symbol: 'LRD'
+    name: 'Liberian Dollar'
+    code: '430'
+    unit: '2'
+- model: core.Currency
+  pk: 138
+  fields:
+    symbol: 'LYD'
+    name: 'Libyan Dinar'
+    code: '434'
+    unit: '3'
+- model: core.Currency
+  pk: 139
+  fields:
+    symbol: 'CHF'
+    name: 'Swiss Franc'
+    code: '756'
+    unit: '2'
+- model: core.Currency
+  pk: 140
+  fields:
+    symbol: 'LTL'
+    name: 'Lithuanian Litas'
+    code: '440'
+    unit: '2'
+- model: core.Currency
+  pk: 142
+  fields:
+    symbol: 'MOP'
+    name: 'Pataca'
+    code: '446'
+    unit: '2'
+- model: core.Currency
+  pk: 143
+  fields:
+    symbol: 'MKD'
+    name: 'Denar'
+    code: '807'
+    unit: '2'
+- model: core.Currency
+  pk: 144
+  fields:
+    symbol: 'MGA'
+    name: 'Malagasy Ariary'
+    code: '969'
+    unit: '2'
+- model: core.Currency
+  pk: 145
+  fields:
+    symbol: 'MWK'
+    name: 'Kwacha'
+    code: '454'
+    unit: '2'
+- model: core.Currency
+  pk: 146
+  fields:
+    symbol: 'MYR'
+    name: 'Malaysian Ringgit'
+    code: '458'
+    unit: '2'
+- model: core.Currency
+  pk: 147
+  fields:
+    symbol: 'MVR'
+    name: 'Rufiyaa'
+    code: '462'
+    unit: '2'
+- model: core.Currency
+  pk: 152
+  fields:
+    symbol: 'MRO'
+    name: 'Ouguiya'
+    code: '478'
+    unit: '2'
+- model: core.Currency
+  pk: 153
+  fields:
+    symbol: 'MUR'
+    name: 'Mauritius Rupee'
+    code: '480'
+    unit: '2'
+- model: core.Currency
+  pk: 156
+  fields:
+    symbol: 'MXN'
+    name: 'Mexican Peso'
+    code: '484'
+    unit: '2'
+- model: core.Currency
+  pk: 157
+  fields:
+    symbol: 'MXV'
+    name: 'Mexican Unidad de Inversion (UDI)'
+    code: '979'
+    unit: '2'
+- model: core.Currency
+  pk: 159
+  fields:
+    symbol: 'MDL'
+    name: 'Moldovan Leu'
+    code: '498'
+    unit: '2'
+- model: core.Currency
+  pk: 161
+  fields:
+    symbol: 'MNT'
+    name: 'Tugrik'
+    code: '496'
+    unit: '2'
+- model: core.Currency
+  pk: 164
+  fields:
+    symbol: 'MAD'
+    name: 'Moroccan Dirham'
+    code: '504'
+    unit: '2'
+- model: core.Currency
+  pk: 165
+  fields:
+    symbol: 'MZN'
+    name: 'Metical'
+    code: '943'
+    unit: '2'
+- model: core.Currency
+  pk: 166
+  fields:
+    symbol: 'MMK'
+    name: 'Kyat'
+    code: '104'
+    unit: '2'
+- model: core.Currency
+  pk: 167
+  fields:
+    symbol: 'NAD'
+    name: 'Namibia Dollar'
+    code: '516'
+    unit: '2'
+- model: core.Currency
+  pk: 170
+  fields:
+    symbol: 'NPR'
+    name: 'Nepalese Rupee'
+    code: '524'
+    unit: '2'
+- model: core.Currency
+  pk: 174
+  fields:
+    symbol: 'NIO'
+    name: 'Cordoba Oro'
+    code: '558'
+    unit: '2'
+- model: core.Currency
+  pk: 176
+  fields:
+    symbol: 'NGN'
+    name: 'Naira'
+    code: '566'
+    unit: '2'
+- model: core.Currency
+  pk: 181
+  fields:
+    symbol: 'OMR'
+    name: 'Rial Omani'
+    code: '512'
+    unit: '3'
+- model: core.Currency
+  pk: 182
+  fields:
+    symbol: 'PKR'
+    name: 'Pakistan Rupee'
+    code: '586'
+    unit: '2'
+- model: core.Currency
+  pk: 185
+  fields:
+    symbol: 'PAB'
+    name: 'Balboa'
+    code: '590'
+    unit: '2'
+- model: core.Currency
+  pk: 187
+  fields:
+    symbol: 'PGK'
+    name: 'Kina'
+    code: '598'
+    unit: '2'
+- model: core.Currency
+  pk: 188
+  fields:
+    symbol: 'PYG'
+    name: 'Guarani'
+    code: '600'
+    unit: '0'
+- model: core.Currency
+  pk: 189
+  fields:
+    symbol: 'PEN'
+    name: 'Nuevo Sol'
+    code: '604'
+    unit: '2'
+- model: core.Currency
+  pk: 190
+  fields:
+    symbol: 'PHP'
+    name: 'Philippine Peso'
+    code: '608'
+    unit: '2'
+- model: core.Currency
+  pk: 192
+  fields:
+    symbol: 'PLN'
+    name: 'Zloty'
+    code: '985'
+    unit: '2'
+- model: core.Currency
+  pk: 195
+  fields:
+    symbol: 'QAR'
+    name: 'Qatari Rial'
+    code: '634'
+    unit: '2'
+- model: core.Currency
+  pk: 197
+  fields:
+    symbol: 'RON'
+    name: 'Leu  '
+    code: '946'
+    unit: '2'
+- model: core.Currency
+  pk: 198
+  fields:
+    symbol: 'RUB'
+    name: 'Russian Ruble'
+    code: '643'
+    unit: '2'
+- model: core.Currency
+  pk: 199
+  fields:
+    symbol: 'RWF'
+    name: 'Rwanda Franc'
+    code: '646'
+    unit: '0'
+- model: core.Currency
+  pk: 200
+  fields:
+    symbol: 'SHP'
+    name: 'Saint Helena Pound'
+    code: '654'
+    unit: '2'
+- model: core.Currency
+  pk: 207
+  fields:
+    symbol: 'WST'
+    name: 'Tala'
+    code: '882'
+    unit: '2'
+- model: core.Currency
+  pk: 209
+  fields:
+    symbol: 'STD'
+    name: 'Dobra'
+    code: '678'
+    unit: '2'
+- model: core.Currency
+  pk: 210
+  fields:
+    symbol: 'SAR'
+    name: 'Saudi Riyal'
+    code: '682'
+    unit: '2'
+- model: core.Currency
+  pk: 212
+  fields:
+    symbol: 'RSD'
+    name: 'Serbian Dinar'
+    code: '941'
+    unit: '2'
+- model: core.Currency
+  pk: 213
+  fields:
+    symbol: 'SCR'
+    name: 'Seychelles Rupee'
+    code: '690'
+    unit: '2'
+- model: core.Currency
+  pk: 214
+  fields:
+    symbol: 'SLL'
+    name: 'Leone'
+    code: '694'
+    unit: '2'
+- model: core.Currency
+  pk: 215
+  fields:
+    symbol: 'SGD'
+    name: 'Singapore Dollar'
+    code: '702'
+    unit: '2'
+- model: core.Currency
+  pk: 220
+  fields:
+    symbol: 'SBD'
+    name: 'Solomon Islands Dollar'
+    code: '090'
+    unit: '2'
+- model: core.Currency
+  pk: 221
+  fields:
+    symbol: 'SOS'
+    name: 'Somali Shilling'
+    code: '706'
+    unit: '2'
+- model: core.Currency
+  pk: 225
+  fields:
+    symbol: 'LKR'
+    name: 'Sri Lanka Rupee'
+    code: '144'
+    unit: '2'
+- model: core.Currency
+  pk: 226
+  fields:
+    symbol: 'SDG'
+    name: 'Sudanese Pound'
+    code: '938'
+    unit: '2'
+- model: core.Currency
+  pk: 227
+  fields:
+    symbol: 'SRD'
+    name: 'Surinam Dollar'
+    code: '968'
+    unit: '2'
+- model: core.Currency
+  pk: 229
+  fields:
+    symbol: 'SZL'
+    name: 'Lilangeni'
+    code: '748'
+    unit: '2'
+- model: core.Currency
+  pk: 230
+  fields:
+    symbol: 'SEK'
+    name: 'Swedish Krona'
+    code: '752'
+    unit: '2'
+- model: core.Currency
+  pk: 232
+  fields:
+    symbol: 'CHE'
+    name: 'WIR Euro'
+    code: '947'
+    unit: '2'
+- model: core.Currency
+  pk: 233
+  fields:
+    symbol: 'CHW'
+    name: 'WIR Franc'
+    code: '948'
+    unit: '2'
+- model: core.Currency
+  pk: 234
+  fields:
+    symbol: 'SYP'
+    name: 'Syrian Pound'
+    code: '760'
+    unit: '2'
+- model: core.Currency
+  pk: 235
+  fields:
+    symbol: 'TWD'
+    name: 'New Taiwan Dollar'
+    code: '901'
+    unit: '2'
+- model: core.Currency
+  pk: 236
+  fields:
+    symbol: 'TJS'
+    name: 'Somoni      '
+    code: '972'
+    unit: '2'
+- model: core.Currency
+  pk: 237
+  fields:
+    symbol: 'TZS'
+    name: 'Tanzanian Shilling'
+    code: '834'
+    unit: '2'
+- model: core.Currency
+  pk: 238
+  fields:
+    symbol: 'THB'
+    name: 'Baht'
+    code: '764'
+    unit: '2'
+- model: core.Currency
+  pk: 242
+  fields:
+    symbol: 'TOP'
+    name: 'Paanga'
+    code: '776'
+    unit: '2'
+- model: core.Currency
+  pk: 243
+  fields:
+    symbol: 'TTD'
+    name: 'Trinidad and Tobago Dollar'
+    code: '780'
+    unit: '2'
+- model: core.Currency
+  pk: 244
+  fields:
+    symbol: 'TND'
+    name: 'Tunisian Dinar'
+    code: '788'
+    unit: '3'
+- model: core.Currency
+  pk: 245
+  fields:
+    symbol: 'TRY'
+    name: 'Turkish Lira'
+    code: '949'
+    unit: '2'
+- model: core.Currency
+  pk: 246
+  fields:
+    symbol: 'TMT'
+    name: 'New Manat'
+    code: '934'
+    unit: '2'
+- model: core.Currency
+  pk: 249
+  fields:
+    symbol: 'UGX'
+    name: 'Uganda Shilling'
+    code: '800'
+    unit: '2'
+- model: core.Currency
+  pk: 250
+  fields:
+    symbol: 'UAH'
+    name: 'Hryvnia'
+    code: '980'
+    unit: '2'
+- model: core.Currency
+  pk: 251
+  fields:
+    symbol: 'AED'
+    name: 'UAE Dirham'
+    code: '784'
+    unit: '2'
+- model: core.Currency
+  pk: 254
+  fields:
+    symbol: 'USN'
+    name: 'US Dollar (Next day)'
+    code: '997'
+    unit: '2'
+- model: core.Currency
+  pk: 255
+  fields:
+    symbol: 'USS'
+    name: 'US Dollar (Same day)'
+    code: '998'
+    unit: '2'
+- model: core.Currency
+  pk: 257
+  fields:
+    symbol: 'UYU'
+    name: 'Peso Uruguayo'
+    code: '858'
+    unit: '2'
+- model: core.Currency
+  pk: 258
+  fields:
+    symbol: 'UYI'
+    name: 'Uruguay Peso en Unidades Indexadas (URUIURUI)'
+    code: '940'
+    unit: '0'
+- model: core.Currency
+  pk: 259
+  fields:
+    symbol: 'UZS'
+    name: 'Uzbekistan Sum'
+    code: '860'
+    unit: '2'
+- model: core.Currency
+  pk: 260
+  fields:
+    symbol: 'VUV'
+    name: 'Vatu'
+    code: '548'
+    unit: '0'
+- model: core.Currency
+  pk: 262
+  fields:
+    symbol: 'VEF'
+    name: 'Bolivar Fuerte'
+    code: '937'
+    unit: '2'
+- model: core.Currency
+  pk: 263
+  fields:
+    symbol: 'VND'
+    name: 'Dong'
+    code: '704'
+    unit: '0'
+- model: core.Currency
+  pk: 268
+  fields:
+    symbol: 'YER'
+    name: 'Yemeni Rial'
+    code: '886'
+    unit: '2'
+- model: core.Currency
+  pk: 269
+  fields:
+    symbol: 'ZMK'
+    name: 'Zambian Kwacha'
+    code: '894'
+    unit: '2'
+- model: core.Currency
+  pk: 270
+  fields:
+    symbol: 'ZWL'
+    name: 'Zimbabwe Dollar'
+    code: '932'
+    unit: '2'

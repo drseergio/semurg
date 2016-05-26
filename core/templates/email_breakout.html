@@ -1,0 +1,24 @@
+{% extends "email.html" %}
+
+{% block title %}semurg: new breakouts{% endblock %}
+{% block heading %}New breakouts identified{% endblock %}
+{% block info %}I have identified new breakouts that might turn out as great purchases in the near future.{% endblock %}
+
+{% block opportunities %}<table id="opportunities">
+      <thead><tr>
+        <th>Symbol</th>
+        <th>Date</th>
+        <th>Price</th>
+      </tr></thead>
+      <tbody>
+{% for breakout in breakouts %}
+        <tr>
+          <td><a href="http://finance.yahoo.com/q?s={{breakout.symbol}}">{{breakout.symbol}}</a></td>
+          <td>{{breakout.date|date:"Y-m-d"}}</td>
+          <td>{{breakout.price}}</td>
+        </tr>
+{% endfor %}
+      </tbody>
+    </table>{% endblock %}
+
+{% block footer %}For more information please access semurg at your earliest convenience.{% endblock %}

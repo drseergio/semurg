@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Price alert notification</title>
+  </head>
+
+  <body>
+    <h2>Security {{symbol}} has reached configured threshold</h2>
+
+    <p>Security <a href="http://finance.yahoo.com/q?s={{symbol}}">{{symbol}}</a> has reached alert target price and is currently at {{price}}. The alert has been deactivated and will not trigger any further notifications.</p>
+
+    <div><a target="_blank" href="http://www.google.com/finance/portfolio?action=view&id={{portfolio_id}}">Google Finance</a> <a target="_blank" href="http://{{semurg_host}}">semurg</a></div>
+  </body>
+</html>

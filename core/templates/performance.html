@@ -1,0 +1,50 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}resources/css/performance.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <title>semurg - performance summary</title>
+  </head>
+
+  <body>
+    <h2>Performance summary</h2>
+
+    <div id="last_update">Last update: {{performance.last_update}}</div>
+
+    <div id="left-panel">
+    <div id="trades">
+      <span class="table_header">Trades</span>
+      <table>
+        <tr class="odd"><th>Total trades</th><td>{{performance.total_trades}}</td></tr>
+        <tr><th>Winning trades</th><td>{{performance.winning_trades}}</td></tr>
+        <tr class="odd"><th>Losing trades</th><td>{{performance.losing_trades}}</td></tr>
+        <tr><th>Profit reached</th><td>{{performance.profit_reached}}</td></tr>
+      </table>
+    </div>
+
+    <div id="portfolio">
+      <span class="table_header">Portfolio allocation</span>
+      <table>
+        <tr class="odd"><th>Long-term</th><td>{{performance.longterm_pct}}%</td></tr>
+        <tr><th>Short-term</th><td>{{performance.shortterm_pct}}%</td></tr>
+      </table>
+    </div>
+    </div>
+
+    <div id="returns">
+      <span class="table_header">Returns</span>
+      <table>
+        <tr class="odd"><th>1 week</th><td>{{performance.1w}}%</td></tr>
+        <tr><th>4 weeks</th><td>{{performance.4w}}%</td></tr>
+        <tr class="odd"><th>3 months</th><td>{{performance.3m}}%</td></tr>
+        <tr><th>YTD</th><td>{{performance.YTD}}%</td></tr>
+        <tr class="odd"><th>1 year</th><td>{{performance.1y}}%</td></tr>
+        <tr><th>3 years</th><td>{{performance.3y}}%</td></tr>
+        <tr class="odd"><th>5 years</th><td>{{performance.5y}}%</td></tr>
+        <tr><th>Overall</th><td>{{performance.overall}}%</td></tr>
+      </table>
+    </div>
+
+    <div id="google_link"><a target="_blank" href="http://www.google.com/finance/portfolio?action=view&id={{portfolio_id}}">Google Finance</a></div>
+  </body>
+</html>

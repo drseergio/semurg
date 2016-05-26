@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}semurg{% endblock %}
+
+{% block head-js %}
+      var controllers = [
+          'Alert',
+          'Breakout',
+          'Opportunity',
+          'Order',
+          'Position',
+          'Transaction',
+          'Watched' ];
+
+      function startSemurg() {
+        Ext.state.Manager.setProvider(Ext.create('Ext.state.CookieProvider'));
+        Ext.create('Ext.container.Container', {
+          renderTo: 'application',
+          width   : 1100,
+          border  : false,
+          height  : 700,
+          layout  : 'border',
+          items   : [{
+              region     : 'north',
+              layout     : 'fit',
+              border     : 'false',
+              plain      : true,
+              height     : 65,
+              items      : [{
+                xtype : 'summarypanel',
+              }]
+            }, {
+              region     : 'east',
+              stateId    : 'sidebar',
+              collapsible: true,
+              title      : 'Opportunities',
+              layout     : 'accordion',
+              split      : true,
+              border     : false,
+              minSize    : 150,
+              maxSize    : 400,
+              width      : 250,
+              items      : [{
+                  title : 'Recommended buys',
+                  items : [{
+                      xtype : 'opportunitybuylist',
+                  }]
+                }, {
+                  title: 'Recommended sells',
+                  items : [{
+                      xtype : 'opportunityselllist',
+                  }]
+                }, {
+                  title: 'Watchlist',
+                  items : [{
+                      xtype : 'watchlist',
+                  }]
+              }]
+            }, {
+              xtype    : 'tabpanel',
+              id       : 'app-center',
+              region   : 'center',
+              layout   : 'fit',
+              border   : false,
+              plain    : true,
+              items    : [{
+                  title : 'Overview',
+                  layout: 'fit',
+                  border: false,
+                  items : [{
+                    xtype : 'component',
+                    autoEl: {
+                      tag: 'iframe',
+                      src: '/performance'
+                    }
+                  }]
+                }, {
+                  title : 'Positions',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                      xtype : 'positionlist',
+                  }]
+                }, {
+                  title : 'Opportunities',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                      xtype : 'opportunitylist',
+                  }]
+                }, {
+                  title : 'Breakouts',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                      xtype : 'breakoutlist',
+                  }]
+                }, {
+                  title : 'Alerts',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                      xtype : 'alertlist',
+                  }]
+                }, {
+                  title : 'Orders',
+                  id    : 'app-center-order',
+                  layout: 'fit',
+                  border: false,
+                  items : [{
+                      xtype : 'orderlist',
+                  }]
+                }, {
+                  title : 'Account',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                      xtype : 'transactionlist',
+                  }]
+                }, {
+                  title : 'Logs',
+                  border: false,
+                  layout: 'fit',
+                  items : [{
+                    xtype : 'component',
+                    autoEl: {
+                      tag: 'iframe',
+                      src: '/logs'
+                    }
+                  }]
+             }]
+          }]
+        });
+      }{% endblock %}

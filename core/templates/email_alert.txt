@@ -1,0 +1,4 @@
+Security {{symbol}} has reached configured threshold
+
+Security {{symbol}} has reached alert target price and is currently at {{price}}. The alert has been
+deactivated and will not trigger any further notifications.

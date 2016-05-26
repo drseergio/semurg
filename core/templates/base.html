@@ -1,0 +1,27 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}{% endblock %} - semurg</title>{% block common %}
+    <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}resources/css/ext-standard.css">
+    <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}resources/css/semurg.css">
+    <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}resources/css/CheckHeader.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="{% get_static_prefix %}extjs/ext{% if debug %}-debug{% endif %}.js"></script>
+    <script type="text/javascript">
+      var currency = '{{currency}}';
+      var staticPath = '{% get_static_prefix %}';{% block head-js %}{% endblock %}
+    </script>{% endblock %}{% block extra-js %}{% endblock %}
+    {% block app-script %}<script type="text/javascript" src="{% get_static_prefix %}app{% if not debug %}-all{% endif %}.js"></script>{% endblock %}
+  </head>
+
+  <body>
+    <noscript><span id="noscript">semurg requires JavaScript, please use a compatible browser</span></noscript>
+    {% block body %}<div id="middle">
+      <div id="application"></div>
+      <div id="footer">{% block footer %}
+        <div id="footerColumns">
+          <div id="copyright">&copy; {% now "Y" %} semurg, All rights reserved</div>
+        </div>{% endblock %}{% endblock %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+*.swp
+*.pyc
+production_settings.py
+local_settings.py
+production_db.yaml

@@ -1,0 +1,188 @@
+@import "compass/utilities";
+@import "icons/*.png"; // */
+@include all-icons-sprites;
+
+body {
+    text-align: center;
+    margin: 5em 0 0 0;
+    vertical-align: middle;
+    font-family:helvetica,tahoma,verdana,sans-serif;
+    padding:20px;
+    padding-top:32px;
+    font-size:13px;
+}
+
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.x-tab-bar {
+    margin-top: 3px;
+}
+
+.x-splitter {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    border-color: #85A2C9;
+}
+
+#middle {
+    text-align: left;
+    width: 1104px;
+    margin: 0 auto;
+}
+
+#application {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #85A2C9;
+    -moz-box-shadow: 0 0 50px #888;
+    -webkit-box-shadow: 0 0 50px #888;
+    box-shadow: 0 0 50px #888;
+}
+
+#noscript {
+    color: white;
+    font-weight: 400;
+    font-family: 'Droid Sans';
+    font-size: 16px;
+}
+
+#footer {
+    font-family: 'Droid Sans';
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.emptyText {
+    margin: 10px;
+    color: #A9A9A9;
+    font-family: 'Droid Sans' !important;
+}
+
+.x-panel-header-text {
+    font-family: 'Droid Sans';
+    font-weight: 400 !important;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size:14px;
+    color:#333;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.msg .x-box-mc {
+    font-size:14px;
+}
+
+#error {
+    color: white;
+    font-weight: 600;
+    font-family: 'Droid Sans' !important;
+    font-size: 20em;
+    text-shadow: #fff 0 0 10px,
+      #fff 0 4px 3px, #ddd 0 9px 3px,  #ccc 0 12px 1px,
+      rgba(0,0,0,0.2) 0 14px 5px, rgba(0,0,0,0.1) 0 20px 10px,
+      rgba(0,0,100,0.2) 0 15px 80px;
+}
+
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:300px;
+    z-index:20000;
+}
+
+#msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+
+#msg-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#msg-div .msg p {
+    margin: 0;
+}
+
+.x-grid-cell {
+    vertical-align: middle;
+}
+
+.x-panel-header-text {
+    font-family: 'Droid Sans';
+    font-weight: 400 !important;
+    font-size: 1.2em;
+}
+
+.x-grid-cell-categoryColumn,
+.x-grid-cell-categoryDescription,
+.x-grid-cell-categoryBalance,
+.x-grid-cell-categoryTotal,
+.x-grid-cell-accountColumn,
+.x-grid-cell-tagColumn {
+    overflow: hidden;
+    padding: 4px !important;
+    white-space: nowrap;
+}
+
+.x-action-col-cell img {
+    height: 16px;
+    width: 16px;
+}
+
+.x-grid-row-over .x-grid-cell-inner {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.summary-header {
+    background: url(../images/gradient.png) repeat-x scroll 0 0;
+}
+
+.summary .x-panel-body {
+    font-family: 'Droid Sans' !important;
+    font-size: 14px;
+    background-color: #dde8f4 !important;
+}
+
+.summary-inside {
+    color: #7D9EC5;
+    padding-left: 5px;
+}
+
+.summary-amount {
+    float: right;
+    margin-right: 5px;
+}
+
+.summary-amount-header {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: right;
+}
+
+.breakout-reviewed .x-grid-cell {
+    background-color: #E6FFE3 !important;
+}

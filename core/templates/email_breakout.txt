@@ -1,0 +1,11 @@
+semurg: new breakouts
+
+I have identified new breakouts that might turn out as great purchases in the
+near future.
+
+Symbol      Date        Price
+{% for breakout in breakouts %}
+{{breakout.symbol}}      {{breakout.date|date:"Y-m-d"}}     {{breakout.price}}
+{% endfor %}
+
+For more information please access semurg at your earliest convenience.

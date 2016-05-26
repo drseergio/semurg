@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#opportunities').dataTable();
+      })
+    </script>
+  </head>
+
+  <body>
+    <h2>{% block heading %}{% endblock %}</h2>
+
+    <p>{% block info %}{% endblock %}</p>
+
+    {% block opportunities %}{% endblock %}
+
+    <p>{% block footer %}{% endblock %}</p>
+    <div><a target="_blank" href="http://www.google.com/finance/portfolio?action=view&id={{portfolio_id}}">Google Finance</a> <a target="_blank" href="http://{{semurg_host}}">semurg</a></div>
+  </body>
+</html>

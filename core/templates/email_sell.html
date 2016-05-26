@@ -1,0 +1,24 @@
+{% extends "email.html" %}
+
+{% block title %}semurg: new sell opportunities{% endblock %}
+{% block heading %}New sell opportunities identified{% endblock %}
+
+{% block info %}I have identified that certain instruments should be sold today. For detail please refer to the table below.{% endblock %}
+
+{% block opportunities %}
+    <table>
+      <tr>
+        <th>Symbol</th>
+        <th>Price</th>
+        <th>Type</th>
+      </tr>
+{% for opportunity in opportunities %}
+      <tr>
+        <td><a href="http://finance.yahoo.com/q?s={{opportunity.symbol}}">{{opportunity.symbol}}</a></td>
+        <td>{{opportunity.instrument.last_price}}</td>
+        <td>{{opportunity.type}}</td>
+      </tr>
+{% endfor %}
+    </table>{% endblock %}
+
+{% block footer %}For more information please access semurg at your earliest convenience.{% endblock %}
